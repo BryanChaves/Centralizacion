@@ -31,22 +31,22 @@ class UserTableSeeder extends Seeder
         'password' => 'Bet-zy23'
         ]);*/
         factory(App\User::class)->create([
-        'name' => 'Juan Alberto',
-        'last_name_1' => 'Quiros',
-        'last_name_2' => 'Gonzalez',
-        'ID_number' => '207210332',
-        'telephone_number' => '88078162',
-        'email' => 'juan_quiros@gmail.com',
-        'password' => 'quiros-23'
+        'name' => 'Carlos Andrei',
+        'last_name_1' => 'Salas',
+        'last_name_2' => 'Ramírez',
+        'ID_number' => '209990589',
+        'telephone_number' => '88842722',
+        'email' => 'carlossr@munisc.go.cr',
+        'password' => 'municipalidad'
         ]);
         factory(App\User::class)->create([
-        'name' => 'Jonathan',
-        'last_name_1' => 'Vargas',
-        'last_name_2' => 'Alvarado',
-        'ID_number' => '207150305',
-        'telephone_number' => '61850931',
-        'email' => 'jona_vargas@gmail.com',
-        'password' => 'vargas/123'
+        'name' => 'Alexander',
+        'last_name_1' => 'Rojas',
+        'last_name_2' => 'Arrieta',
+        'ID_number' => '205520618',
+        'telephone_number' => '83718334',
+        'email' => 'asadasanvicente@gmail.com',
+        'password' => 'sanvicente'
         ]);
     }
 }
