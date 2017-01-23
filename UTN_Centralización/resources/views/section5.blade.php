@@ -1,0 +1,2 @@
+<li><a class="submenu" href="{{route('aforos.index')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.capabilities')}}</span></a></li>
+<li><a class="submenu" href="{{route('calidades.index')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.quality')}}</span></a></li>  

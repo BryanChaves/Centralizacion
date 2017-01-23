@@ -1,0 +1,14 @@
+.text{
+	width: 100%;
+	
+	text-align:left;
+
+}
+#messages{
+	background-color: #53FC7B;
+}
+#message{
+	color: #044B15;
+}
+
+

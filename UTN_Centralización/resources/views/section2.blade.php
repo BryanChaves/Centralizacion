@@ -1,0 +1,3 @@
+<li><a class="submenu" href="{{route('usuarios.index')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.users')}}</span></a></li>
+<li><a class="submenu" href="{{route('usuarios-entidades.index')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.users_entities')}}</span></a></li>
+<li><a class="submenu" href="{{route('entidades.index')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.entities')}}</span></a></li>

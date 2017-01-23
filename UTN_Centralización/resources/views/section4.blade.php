@@ -1,0 +1,5 @@
+<li><a class="submenu" href="{{route('medicion-caudal.index')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.flow_measurement')}}</span></a></li>
+<li><a class="submenu" href="{{route('analisis.index')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.analysis')}}</span></a></li> 
+<li><a class="submenu" href="{{route('sitios-muestreo.index')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.sampling_sites')}}</span></a></li>
+<li><a class="submenu" href="{{route('muestras.index')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.samplings')}}</span></a></li>  
+<li><a class="submenu" href="{{route('registros.index')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.records')}}</span></a></li>                             

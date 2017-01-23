@@ -1,0 +1,5 @@
+<li><a class="submenu" href="{{route('concesiones.index')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.concessions')}}</span></a></li>   
+<li><a class="submenu" href="{{route('concesion-naciente.index')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.concession_watersource')}}</span></a></li>
+<li><a class="submenu" href="{{route('nacientes.index')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.watersources')}}</span></a></li>   
+<li><a class="submenu" href="{{route('viabilidades.index')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.viabilities')}}</span></a></li> 
+<li><a class="submenu" href="{{route('resoluciones.index')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.resolutions')}}</span></a></li> 
