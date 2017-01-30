@@ -3,6 +3,7 @@
   <label class="control-label">{{trans('validation.attributes.laboratory_name')}}</label>
   {!! Form::text('laboratory_name',null,['class'=>'text','placeholder'=>'Por favor introduzca el nombre del laboratorio']) !!}
 </div>
+
 <div class="form-group">
   <label class="control-label">{{trans('validation.attributes.date')}}</label>
   <div class='input-group date' id='datetimepicker1'>

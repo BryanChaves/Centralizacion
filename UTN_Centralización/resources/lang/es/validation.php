@@ -276,6 +276,7 @@ return [
 		'check_point'=>'Punto de control',
 		'agent_id'=>'Gestor',
 		'viability_number'=>'Número de viabilidad',
+		'analysis_type'=>'Tipo de análisis',
 
 	],
 

@@ -25,6 +25,7 @@ class AnalysisEditRequest extends Request
     {
         return [
             'laboratory_name'=>'required|alpha',
+            'analysis_type'=>'required|in:Microbiológicos,Físico-químicos',
             'date'=>'date',
             'report_number'=>'required',
             'path'=>'mimes:pdf'
