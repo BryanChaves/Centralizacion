@@ -1,2 +1,1 @@
-<li><a class="submenu" href="{{route('expedientes.index')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.files')}}</span></a></li>                                
-<li><a class="submenu" href="{{route('tipos-expediente.index')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.files_types')}}</span></a></li>
+<li><a class="submenu" href="legales"><i class="icon-file-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.files')}}</span></a></li>

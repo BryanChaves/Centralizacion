@@ -266,7 +266,7 @@ return [
 		'concession_watersource'=>'Concesión-Naciente',
 		'flow_measurement'=>'Medición caudal',
 		'measurements'=>'Mediciones',
-		'files_view'=>'Archivos',
+		'files_view'=>'Legales',
 		'reports'=>'Reportes',
 		'capabilities'=>'Aforos',
 		'quality'=>'Calidad',
@@ -277,6 +277,10 @@ return [
 		'agent_id'=>'Gestor',
 		'viability_number'=>'Número de viabilidad',
 		'analysis_type'=>'Tipo de análisis',
+		'types'=>'Tipos',
+		'list'=>'Lista',
+		'legal'=>'Legal',
+
 
 	],
 

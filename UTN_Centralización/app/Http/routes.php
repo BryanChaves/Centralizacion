@@ -47,3 +47,6 @@ Route::resource('calidades','ReportqualityController');
 
 Route::get('/combo/{value}', 'ReportcapacityController@combo');
 Route::get('/cargarTabla/{value}', 'AnalysisController@cargarTabla');
+Route::get('/legales', 'FileController@legal');
+
+

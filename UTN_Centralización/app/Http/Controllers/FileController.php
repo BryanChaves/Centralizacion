@@ -132,6 +132,13 @@ class FileController extends Controller
         }
         return $exist; 
     }
+     public function legal()
+    {   
+        $view=Auth::user()->getView();
+      
+        return view('files.legal',compact('view'));
+       
+    }
 
 
 }

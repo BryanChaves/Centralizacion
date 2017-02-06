@@ -5,11 +5,12 @@
     <div class="nav-collapse sidebar-nav">
         <ul class="nav nav-tabs nav-stacked main-menu">
         	<li>
-    			<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.files_view')}}</span></a>
-    			<ul>                                               
+    			<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.legal')}}</span></a>
+    			<ul>     
         			@include('section1')
                     	                                             
-    			</ul>   
+    			</ul>  
+
 			</li>
 			<li>
     			<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet"> {{trans('validation.attributes.users')}}</span></a>
